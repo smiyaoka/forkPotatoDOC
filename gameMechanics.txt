@@ -1,0 +1,11 @@
+if the game starts
+	-user can use items (max: 3) to aid their character
+	-user can "eat" which is a stronger attack than the regular auto attack
+	-user can use a character specific skill to dmg monster
+	-will face a trivia question for every miniboss (which removes answer when incorrect)
+	-final boss will be fought regularly using attacks and at 1hp of the monster, will be taken down by a 	previously asked trivia question.
+
+game will end if
+	-user's hp falls to 0
+	-user beats final boss
+	-user pauses and leaves game via save/quit
