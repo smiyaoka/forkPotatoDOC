@@ -1,0 +1,43 @@
+/* This is the CSS for the affiliateApps.html.
+It was purposely separated from the rest of the base.css
+because this page was best kept with scrolling depending 
+on how many affiliates we get.*/
+
+html {
+    width: 100%; 
+    height: 100vh; 
+}
+
+body {
+    padding: 0; 
+    margin: 0; 
+    width: 100vw; 
+}
+
+/* The container which keeps everything together
+and allows scrolling*/
+#affiliateBody {
+    position: absolute;
+    background-color: darksalmon; 
+    border: 1px solid black; 
+    box-sizing: border-box; 
+    width: 100%;
+    height: auto;
+}
+
+
+/* A few of the logos were white with no background
+color so this changes the img background*/
+img {
+    background-color: lemonchiffon;
+}
+
+
+/*  */
+.container .row .col-sm-4{
+    width: 90vw;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
